@@ -73,10 +73,10 @@ def atualizar(lista, id_busca):
         return
 
     print(f"\nEditando: {planta['nome']}")
-    nome = input(f"Novo nome (deixe vazio para manter '{planta['nome']}'): ").strip()
-    tipo = input(f"Tipo(deixe vazio para manter '{planta['tipo']}'): ").strip()
-    local = input(f"local(deixe vazio para manter'{planta['local']}'): ").strip()
-    frequencia_rega = input(f"frequencia_rega (deixe vazio para manter '{planta['frequencia_rega']}'): ").strip()
+    nome = input(f"Novo nome (vazio para manter '{planta['nome']}'): ").strip()
+    tipo = input(f"Tipo(vazio para manter '{planta['tipo']}'): ").strip()
+    local = input(f"local(vazio para manter'{planta['local']}'): ").strip()
+    frequencia_rega = input(f"frequencia_rega (vazio para manter '{planta['frequencia_rega']}'): ").strip()
 
     if nome: planta['nome'] = nome
     if tipo: planta['tipo'] = tipo
@@ -140,3 +140,4 @@ def menu():
 if __name__ == "__main__":
 
     menu()
+
