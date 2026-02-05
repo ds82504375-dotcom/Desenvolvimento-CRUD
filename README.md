@@ -5,6 +5,7 @@ O Tema foi escolhido na melhor necessidade de organização e controle de planta
 Entretanto o sistema é de simples acesso somente para ter uma organização e controle de cada planta em suas áreas.
 
 O sistema contém:
+
 Dicionário: chaves de ID, nome, tipo, local e frequência de rega.
 
 Lista: Armazenando todos os dicionários.
