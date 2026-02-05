@@ -12,6 +12,7 @@ Lista: Armazenando todos os dicionários.
 
 # Persistência JSON
 Para que os dados não fossem apagados foram implementados as funções:
+
 Carregar: Usa biblioteca json para ler o arquivo, se o arquivo não existir ele retorna uma lista vazia.
 
 Salvar lista: Escreve no arquivo json com indent=4.
