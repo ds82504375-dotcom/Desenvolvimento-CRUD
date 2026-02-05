@@ -1,9 +1,10 @@
 # Controle de Plantas
 
 # Definição do tema e estrutura dos dados 
-O tema foi escolhido na necessidade de melhor controle de plantas ornamentais, frutífera, remédio e sua localização.
-O sistema contém:
+O Tema foi escolhido na melhor necessidade de organização e controle de plantas ornamentais, frutífera, remédio e sua localização, tanto para residência urbana quanto rural, o sistema conta com o nome, tipo, local e frequência de rega facilitando o controle de cuidados para cada tipo de planta. Foi pensado futuramente em ter um controle mais especifico e detalhado dos métodos principais utilizando rotação de cultura o uso de herbicidas e as funções da lavoura. 
+Entretanto o sistema é de simples acesso somente para ter uma organização e controle de cada planta em suas áreas.
 
+O sistema contém:
 Dicionário: chaves de ID, nome, tipo, local e frequência de rega.
 
 Lista: Armazenando todos os dicionários.
