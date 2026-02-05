@@ -29,7 +29,7 @@ Atualizar: Localiza pelo ID permitindo que o usuário informe novos atualizaçõ
 Deletar: Localiza o item da lista removendo usando lista.remove.
 
 # Menu interativo
-A função menu contém um laço while True, exibindo as opções de escolha do usuário e do número correspondido, a opção 0 quebra o laço e encerra o programa.
+A função menu contém um laço while True, exibindo as opções de escolha do usuário e do número correspondido para melhor compreensão de cada item, a opção 0 quebra o laço e encerra o programa.
 
 # Tratamento de erros
 Try/except: Essa funçaõ evita que o programa trave se o usuário digitar uma letra no lugar do ID.
