@@ -43,7 +43,7 @@ def criar(lista):
         print("Erro: Nome e tipo são obrigatórios!")
         return
 
-    # ID Automático conforme Requisito 3.4
+    # ID Automático 
     novo_id = len(lista) + 1
     
     nova_planta = {
@@ -138,4 +138,5 @@ def menu():
             print("Erro: Por favor, digite um número válido para o ID.")
 
 if __name__ == "__main__":
+
     menu()
